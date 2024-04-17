@@ -1,0 +1,255 @@
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: var(--space-lg);
+}
+
+.intro div {
+  display: -ms-grid;
+  display: grid;
+  gap: var(--space-sm);
+  max-width: var(--content-sm);
+}
+
+.intro form {
+  display: -ms-grid;
+  display: grid;
+  gap: var(--space-sm);
+  max-width: 25ch;
+}
+
+.image{
+    margin:2rem;
+}
+
+.intro .info {
+    margin-left: 0px;
+    width: calc(100% - 60.1rem);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+.info .info1 {
+    margin: 0rem 8.95rem 3.2rem 8.95rem;
+    width: calc(100% - 17.9rem);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .info .info1 .budgets{
+    margin-bottom: 1.55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2125;
+    color: #21334f;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .info .info1 .spend {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #606060;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+.info .frame28 {
+    width: 100%;
+    height: 15.8rem;
+    display: flex;
+    column-gap: 6rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+.info .frame28 .frame23 {
+    box-sizing: border-box;
+    padding: 3.2rem 3rem;
+    width: 24.8rem;
+    height: 100%;
+    border: solid 0.1rem rgba(0, 0, 0, 0.1599999964);
+    background-color: #ffffff;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+.info .frame28 .frame23 .frame22 {
+    box-sizing: border-box;
+    padding-top: 0.25rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+.info .frame28 .frame23 .frame22 .budgetestimate {
+    margin: 0rem 0rem 3.2rem 0.125rem;
+    width: 3.875rem;
+    height: 3.75rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+.info .frame28 .frame23 .frame22 .calculate {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #606060;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+.info .frame28 .frame25 {
+    box-sizing: border-box;
+    padding: 3.2rem 1.5rem;
+    width: 24.7rem;
+    height: 100%;
+    border: solid 0.1rem rgba(0, 0, 0, 0.1599999964);
+    background-color: #ffffff;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+.info .frame28 .frame25 .frame24 {
+    box-sizing: border-box;
+    padding-top: 0.08rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .info .frame28 .frame25 .frame24 .receipt {
+    margin: 0rem 0rem 3.311rem 0rem;
+    width: 2.72rem;
+    height: 3.8094rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+.info .frame28 .frame25 .frame24 .generate {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #606060;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+.info .frame28 .frame26 {
+    box-sizing: border-box;
+    padding: 3.2rem 3rem;
+    width: 22.4rem;
+    height: 100%;
+    border: solid 0.1rem rgba(0, 0, 0, 0.1599999964);
+    background-color: #ffffff;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+.info .frame28 .frame26 .frame27 {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+.info .frame28 .frame26 .frame27 .delivery {
+    margin: 0rem 0.083rem 3.2rem 0rem;
+    width: 3.5833rem;
+    height: 4rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .info .frame28 .frame26 .frame27 .easily {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #606060;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .heading h1{
+    font-size: 3rem;
+      font-weight: bold;
+      font-family: Inter, 'Source Sans Pro';
+  }
+  .heading p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #606060;
+    font-family: Inter, 'Source Sans Pro';
+     
+  }
+  .heading{
+    text-align: center;
+    margin: 1rem;
+  }
+  .cards div{
+     width: 300px;
+     height: 200px;
+     /* justify-content: space-between; */
+     /* background-color: red; */
+     margin: 4rem;
+     margin-left: 10rem;
+     border: solid 0.1rem rgba(0, 0, 0, 0.1599999964);
+    border-radius: 0.4rem;
+    
+
+  }
+  
+  .card1 img{
+    width:20%;
+    height: 40%;
+     margin: 50px auto;
+     margin-bottom: 20px;
+  }
+  .card1 p{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #606060;
+    font-family: Inter, 'Source Sans Pro';
+  }
+  /* .header{
+    width: 50%;
+
+  }
+  .image{
+    width: 50%;
+  } */
+  .header {
+    flex: 1;
+    margin-left: 1rem;
+  }
+  
+  .image {
+    flex: 1;
+  }

@@ -1,0 +1,131 @@
+.contact form div {
+    display: flex;
+  }
+  
+  
+  .contact textarea {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0.5rem;
+  }
+  
+  .contact input {
+    margin-bottom: 20px;
+    /* margin-right: 10px; */
+  }
+  
+  .contactdivinput {
+    margin-right: 10px;
+  }
+  .contactdiv{
+    display: flex;
+  }
+  .contactdiv input{
+    width: 50%;
+  }
+  .contact form {
+    padding: 30px;
+  }
+  .subject{
+    width: 100%;
+  }
+
+   .content{
+    /* background-color: red; */
+    margin-top: 6rem;
+    width: 70%;
+   }
+  
+  @media screen and (max-width: 768px) {
+    .contact h4 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .contactdiv {
+      width: 100%
+    }
+  
+    .contact form div {
+      flex-direction: column;
+    }
+  
+    .contact input {
+      width: 100%;
+    }
+  
+  }
+  
+  .common__section {
+    background: linear-gradient(rgba(34, 34, 47, 0.6), rgba(25, 25, 36, 0.6)),
+      url("../assets/contact-us.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+  
+  }
+  
+  .customStyles {
+    color: white;
+    margin-top: 10px;
+  }
+
+  .contactform {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  
+  .contactform input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .contactform span {
+    font-size: 14px;
+    color: grey;
+  }
+  
+  input::placeholder {
+    font-size: 17px;
+    color: black;
+  }
+  
+  .contactform .box {
+    padding: 15px;
+    border-left: 1px solid rgba(128, 128, 128, 0.2);
+  }
+  
+  .contactform .box:nth-child(1) {
+    border-left: none;
+  }
+  
+  .contactform h4 {
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .hero .container {
+      padding-top: 30%;
+    }
+  
+    .contactform {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .contactform .box {
+      border-left: none;
+    }
+  
+    .contactform input {
+      width: 100%;
+    }
+  }

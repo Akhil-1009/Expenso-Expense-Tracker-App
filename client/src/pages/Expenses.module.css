@@ -1,0 +1,60 @@
+.primary{
+    background-color: #161C51;
+    padding:5px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+ }
+ .filter{
+    box-shadow: 0 0 2px gray;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+ 
+.btndiv{
+    width: 26%;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.btndiv button{
+    height: 50%;
+}
+.transactionform label{
+    color: rgba(0, 0, 0, 0.77) !important;
+}
+.transactionform input{
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    box-shadow: none !important;
+}
+.transactionform input:focus{
+    border: 1px solid gray;
+    border-bottom: 1px solid gray !important;
+    box-shadow: none !important;
+}
+
+.ant-select-selector{
+    border: 1px solid gray !important;
+}
+.ant-select-selector:focus{
+    box-shadow:none !important;
+    outline: none !important;
+}
+
+.table1 {
+    width: 90%;
+  }
+ 
+.table2 {
+    width: 10%;
+}
+
+@media (max-width: 768px) {
+    .btndiv {
+      display: flex;
+      flex-direction: column;
+    }
+    .btndiv button{
+        margin-bottom: 1rem;
+    }
+  }

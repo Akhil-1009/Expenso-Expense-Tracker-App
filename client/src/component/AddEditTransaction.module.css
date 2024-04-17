@@ -1,0 +1,28 @@
+.transactionform label{
+    color: rgba(0, 0, 0, 0.77) !important;
+}
+.transactionform input{
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    box-shadow: none !important;
+}
+.transactionform input:focus{
+    border: 1px solid gray;
+    border-bottom: 1px solid gray !important;
+    box-shadow: none !important;
+}
+
+.ant-select-selector{
+    border: 1px solid gray !important;
+}
+.ant-select-selector:focus{
+    box-shadow:none !important;
+    outline: none !important;
+}
+.primary{
+    background-color: #161C51;
+    padding:5px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+ }

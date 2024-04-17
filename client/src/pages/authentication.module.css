@@ -1,0 +1,85 @@
+.register{
+    height:85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+}
+.lottie{
+    height:400px;
+}
+.firstdiv{
+    margin-top: -10rem;
+}
+/* .register input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.784);
+    color: rgba(255, 255, 255, 0.568);
+}
+
+input:focus{
+   outline: none !important;
+   box-shadow: none !important;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.784) !important;
+} */
+.loginform input{
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    box-shadow: none !important;
+}
+.loginform input:focus{
+    border: 1px solid gray;
+    border-bottom: 1px solid gray !important;
+    box-shadow: none !important;
+}
+
+label , a{
+    color: rgba(255, 255, 255, 0.536) !important;
+}
+
+.register h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+.secondary{
+    background-color: #ffffff;
+    padding:5px 20px;
+    color: black !important;
+    border: none;
+  }
+  /* .ant-input-outlined:focus{
+    background-color: transparent;
+  } */
+
+
+  /* cs for contact us page.. */
+
+  .contactus{
+    height:85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+}
+
+.contactusfirstdiv{
+    margin-top: -10rem;
+}
+
+.contactusform input{
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    box-shadow: none !important;
+}
+.cotactusform input:focus{
+    border: 1px solid gray;
+    border-bottom: 1px solid gray !important;
+    box-shadow: none !important;
+}
+.lottieimg{
+    height:400px;
+    padding-left: 50px;
+}

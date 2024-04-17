@@ -1,0 +1,12 @@
+.primary{
+    background-color: #161C51;
+    padding:5px 20px;
+    color: white !important;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold !important;
+ }
+ .content p{
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.3rem;
+ }
